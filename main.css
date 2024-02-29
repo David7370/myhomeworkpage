@@ -60,13 +60,12 @@ body {
   }
   
 
-  @media screen (max-width: 500px) {
+  @media screen and (max-width: 500px) {
     .header a {
       float: none;
       display: block;
       text-align: left;
     }
-
     .header-right {
       float: none;
     }
