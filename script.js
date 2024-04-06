@@ -43,6 +43,9 @@ async function fetchWeather() {
       case 'snow':
         backgroundImage = 'url(https://images.pexels.com/photos/773953/pexels-photo-773953.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)';
         break;
+      case 'Light snow showers':
+        backgroundImage = 'url(https://images.pexels.com/photos/3593865/pexels-photo-3593865.jpeg)';
+        break;
       default:
         backgroundImage = 'url(default-background.jpg)';
     }
