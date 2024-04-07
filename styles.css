@@ -81,6 +81,15 @@ header {
   body {
     background-image: url('./images/Phone.png');
   }
+
+  .search {
+    margin-left: 0; /* Remove left margin on small screens */
+  }
+
+  .weather-info {
+    font-size: 14px;
+    margin-left: 0; /* Remove left margin on small screens */
+  }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 1200px) {
@@ -92,11 +101,5 @@ header {
 @media only screen and (min-width: 1201px) {
   body {
     background-image: url('./images/Desktop.png');
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .weather-info {
-    font-size: 14px; 
   }
 }
