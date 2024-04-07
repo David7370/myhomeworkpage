@@ -46,8 +46,6 @@ async function fetchWeather() {
       case 'Light snow showers':
         backgroundImage = 'url(https://images.pexels.com/photos/3593865/pexels-photo-3593865.jpeg)';
         break;
-      default:
-        backgroundImage = 'url(default-background.jpg)';
     }
 
     weatherInfo.style.backgroundImage = backgroundImage;
