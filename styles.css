@@ -7,21 +7,11 @@ body {
   background-repeat: no-repeat;
 }
 
-.container {
-  max-width: 90%;
-  margin-left: 50px;
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  color: #fff;
-}
-
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  padding: 20px;
 }
 
 .logo img {
@@ -29,8 +19,8 @@ header {
 }
 
 .search {
-  flex-grow: 1;
-  margin-left: 900px;
+  display: flex;
+  align-items: center;
 }
 
 .search input[type="text"] {
@@ -54,60 +44,12 @@ header {
   background-color: #0056b3;
 }
 
-.weather-info {
-  text-align: center;
-  padding-left: 900px;
-  border-radius: 8px;
-  color: white;
-}
-
-.weather-info p {
-  margin: 5px 0;
-}
-
-@media only screen and (min-width: 600px) {
-  .container {
-    max-width: 80%;
-  }
-}
-
-@media only screen and (min-width: 900px) {
-  .container {
-    max-width: 70%;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  body {
-    background-image: url('./images/Phone.png');
-  }
-}
-
-@media only screen and (min-width: 601px) and (max-width: 1200px) {
-  body {
-    background-image: url('./images/Tablet.png');
-  }
-}
-
-@media only screen and (min-width: 1201px) {
-  body {
-    background-image: url('./images/Desktop.png');
-  }
-}
-
-.weather-info {
-  text-align: center;
+.container {
+  max-width: 30%;
+  margin-left: 1200px;
   padding: 20px;
+  background-color: rgba(199, 199, 199, 0);
   border-radius: 8px;
-  color: #fff; 
-}
-
-.weather-info p {
-  margin: 5px 0;
-}
-
-@media only screen and (max-width: 600px) {
-  .weather-info {
-    font-size: 14px; 
-  }
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.916);
+  color: #fff;
 }

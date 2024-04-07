@@ -36,6 +36,14 @@ async function fetchWeather() {
       weatherData += `<p>${time}: ${hour.condition.text}</p>`;
     });
 
+    var container = document.getElementById('weatherInfo');
+
+    var container = document.getElementById('weatherInfo');
+
+    var container = document.getElementById('weatherInfo');
+
+    var container = document.getElementById('weatherInfo');
+
     weatherInfo.innerHTML = weatherData;
   } catch (error) {
     console.error('There was a problem fetching the weather data:', error);
