@@ -2,43 +2,46 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-image: url('./images/Desktop.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .container {
   max-width: 90%;
-  margin: 50px auto;
+  margin-left: 50px;
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #fff;
 }
 
-h1 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.form {
+header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
 }
 
-input[type="text"] {
+.logo img {
+  width: 100px; 
+}
+
+.search {
+  flex-grow: 1;
+  margin-left: 900px;
+}
+
+.search input[type="text"] {
   width: 100%;
   max-width: 300px;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: none;
   border-radius: 4px;
 }
 
-button {
-  width: 100%;
-  max-width: 300px;
+.search button {
   padding: 10px 20px;
   background-color: #007bff;
   color: #fff;
@@ -47,8 +50,19 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.search button:hover {
   background-color: #0056b3;
+}
+
+.weather-info {
+  text-align: center;
+  padding-left: 900px;
+  border-radius: 8px;
+  color: white;
+}
+
+.weather-info p {
+  margin: 5px 0;
 }
 
 @media only screen and (min-width: 600px) {
@@ -79,17 +93,6 @@ button:hover {
   body {
     background-image: url('./images/Desktop.png');
   }
-}
-
-.weather-info {
-  text-align: center;
-  padding: 20px;
-  border-radius: 8px;
-  color: #fff; 
-}
-
-.weather-info p {
-  margin: 5px 0;
 }
 
 @media only screen and (max-width: 600px) {
